@@ -69,7 +69,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Computer Science • Web Developer Specialist
+                BSc   (Hons) Computer Science • Full-Stack Developer
               </span>
             </div>
 
@@ -85,7 +85,7 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Nipuna Nuwantha — an undergraduate student of Bsc(Hnors) in Computer Science specializing in
+                Hi, I'm Nipuna Nuwantha — an undergraduate student of Bsc(Hons) in Computer Science specializing in
                 React, Node.js, and MongoDB. I build scalable, performant web
                 applications that users love.
               </p>
