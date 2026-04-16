@@ -14,17 +14,17 @@ const skills = [
   "Next.js",
   "TypeScript",
   "Node.js",
-  "GraphQL",
+  "Flutter",
   "PostgreSQL",
   "MongoDB",
-  "Redis",
+  "Express",
   "Docker",
   "AWS",
   "Vercel",
   "Tailwind CSS",
-  "Prisma",
-  "Jest",
-  "Cypress",
+  "Programming C",
+  "Java",
+  "C#",
   "Figma",
   "Git",
   "GitHub Actions",
@@ -40,7 +40,7 @@ export const Hero = () => {
           alt="Hero image"
           className="w-full h-full object-cover opacity-40"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/80 to-background" />
+        <div className="absolute inset-0 bg-linear-to-b from-background/20 via-background/80 to-background" />
       </div>
 
       {/* Green Dots */}
@@ -69,7 +69,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • React Specialist
+                Computer Science • Web Developer Specialist
               </span>
             </div>
 
@@ -85,8 +85,8 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Pedro Machado — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
+                Hi, I'm Nipuna Nuwantha — an undergraduate student of Bsc(Hnors) in Computer Science specializing in
+                React, Node.js, and MongoDB. I build scalable, performant web
                 applications that users love.
               </p>
             </div>
@@ -126,15 +126,15 @@ export const Hero = () => {
             <div className="relative max-w-md mx-auto">
               <div
                 className="absolute inset-0 
-              rounded-3xl bg-gradient-to-br 
+              rounded-3xl bg-linear-to-br 
               from-primary/30 via-transparent 
               to-primary/10 blur-2xl animate-pulse"
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
                   src="/profile-photo.jpg"
-                  alt="Pedro Machado"
-                  className="w-full aspect-[4/5] object-cover rounded-2xl"
+                  alt="Nipuna Nuwantha"
+                  className="w-full aspect-4/5 object-cover rounded-2xl"
                 />
 
                 {/* Floating Badge */}
@@ -148,7 +148,7 @@ export const Hero = () => {
                 </div>
                 {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">5+</div>
+                  <div className="text-2xl font-bold text-primary">1+</div>
                   <div className="text-xs text-muted-foreground">
                     Years Exp.
                   </div>
@@ -166,15 +166,15 @@ export const Hero = () => {
           <div className="relative overflow-hidden">
             <div
               className="absolute left-0 top-0 bottom-0 w-32
-             bg-gradient-to-r from-background to-transparent z-10"
+             bg-linear-to-r from-background to-transparent z-10"
             />
             <div
               className="absolute right-0 top-0 bottom-0 w-32
-             bg-gradient-to-l from-background to-transparent z-10"
+             bg-linear-to-l from-background to-transparent z-10"
             />
             <div className="flex animate-marquee">
               {[...skills, ...skills].map((skill, idx) => (
-                <div key={idx} className="flex-shrink-0 px-8 py-4">
+                <div key={idx} className="shrink-0 px-8 py-4">
                   <span className="text-xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors">
                     {skill}
                   </span>
