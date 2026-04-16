@@ -2,40 +2,40 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: " Food Delivery Web",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
+      "Full stack Food delivery website using React JS, MongoDB, Express, Node JS and Stripe",
     image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
+    tags: ["React", "MongoDB", "NodeJS", "Stripe"],
     link: "#",
-    github: "#",
+    github: "https://github.com/UNNuwantha/Food-Delivery-Web?tab=readme-ov-file",
   },
   {
-    title: "E-Commerce Platform",
+    title: "ChatApp",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
+      "Full stack Chat App using MongoDB, Express, React, and Node.js. This will be a real-time chat application. it means, when we send a message to another user, they will instantly receive the message without re-loading the application. ",
     image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
+    tags: ["React", "NodeJS", "Express", "Tailwind", "MongoDB"],
+    link: "https://chat-app-eta-three-11.vercel.app/login",
+    github: "https://github.com/UNNuwantha/chat-app?tab=readme-ov-file",
   },
   {
-    title: "AI Writing Assistant",
+    title: "Background Remover",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
+      "Full Stack AI SaaS Application Using MongoDB, Express, React, and Node.js.By creating a Background Removal App that allows users to upload an image.",
     image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
-    github: "#",
+    tags: ["React", "Remove.bg", "Node.js", "MongoDB"],
+    link: "https://bg-removal-eosin-chi.vercel.app/",
+    github: "https://github.com/UNNuwantha/bg-removal",
   },
   {
-    title: "Project Management Tool",
+    title: "Imagify - AI-Powered Image Generation",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
+      "Full Stack AI SaaS Application Using MongoDB, Express, React, and Node.js. Making a Text to Image generator App that allows you to generate images using AI.",
     image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
-    github: "#",
+    tags: ["React", "Pollinations.ai", "MongoDB", "Node.js"],
+    link: "https://imagify-ivory-two.vercel.app/",
+    github: "https://github.com/UNNuwantha/Imagify",
   },
 ];
 
@@ -81,7 +81,7 @@ export const Projects = () => {
                 />
                 <div
                   className="absolute inset-0 
-                bg-gradient-to-t from-card via-card/50
+                bg-linear-to-t from-card via-card/50
                  to-transparent opacity-60"
                 />
                 {/* Overlay Links */}
