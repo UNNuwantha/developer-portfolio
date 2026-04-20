@@ -2,13 +2,13 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: " Food Delivery Web",
+    title: " Netflix Clone",
     description:
-      "Full stack Food delivery website using React JS, MongoDB, Express, Node JS and Stripe",
+      "A modern, responsive Netflix clone built with React and Vite, featuring Firebase authentication, dynamic content rendering, and a sleek user interface.",
     image: "/projects/project1.png",
-    tags: ["React", "MongoDB", "NodeJS", "Stripe"],
-    link: "#",
-    github: "https://github.com/UNNuwantha/Food-Delivery-Web?tab=readme-ov-file",
+    tags: ["React", "Firebase", "NodeJS", "Vite"],
+    link: "https://netflix-clone-eight-peach-78.vercel.app/",
+    github: "https://github.com/UNNuwantha/netflix-clone",
   },
   {
     title: "ChatApp",
