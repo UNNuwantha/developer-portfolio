@@ -8,6 +8,18 @@
 
 A modern, responsive personal portfolio website built with React, Vite, and Tailwind CSS. Showcase your projects, experience, and skills with a sleek and professional design.
 
+![image alt](https://github.com/UNNuwantha/developer-portfolio/blob/master/client/src/assets/img1.png?raw=true)
+![image alt](https://github.com/UNNuwantha/developer-portfolio/blob/master/client/src/assets/img2.png?raw=true)
+![image alt](https://github.com/UNNuwantha/developer-portfolio/blob/master/client/src/assets/img3.png?raw=true)
+![image alt](https://github.com/UNNuwantha/developer-portfolio/blob/master/client/src/assets/img4.png?raw=true)
+![image alt](https://github.com/UNNuwantha/developer-portfolio/blob/master/client/src/assets/img5.png?raw=true)
+![image alt](https://github.com/UNNuwantha/developer-portfolio/blob/master/client/src/assets/img6.png?raw=true)
+![image alt](https://github.com/UNNuwantha/developer-portfolio/blob/master/client/src/assets/img7.png?raw=true)
+![image alt](https://github.com/UNNuwantha/developer-portfolio/blob/master/client/src/assets/img8.png?raw=true)
+![image alt](https://github.com/UNNuwantha/developer-portfolio/blob/master/client/src/assets/img9.png?raw=true)
+![image alt](https://github.com/UNNuwantha/developer-portfolio/blob/master/client/src/assets/img10.png?raw=true)
+
+
 ## ✨ Features
 
 - 🎨 **Modern Design**: Clean and responsive UI with smooth animations
