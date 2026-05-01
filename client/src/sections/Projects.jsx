@@ -1,14 +1,15 @@
+import { useState } from "react";
 import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: " Netflix Clone",
+    title: " QuickGPT",
     description:
-      "A modern, responsive Netflix clone built with React and Vite, featuring Firebase authentication, dynamic content rendering, and a sleek user interface.",
+      "QuickGPT is a full-stack web application that brings the power of OpenAI's advanced language models to your fingertips. It offers a seamless experience for AI-powered conversations.",
     image: "/projects/project1.png",
-    tags: ["React", "Firebase", "NodeJS", "Vite"],
-    link: "https://netflix-clone-eight-peach-78.vercel.app/",
-    github: "https://github.com/UNNuwantha/netflix-clone",
+    tags: ["React", "Express", "NodeJS", "MongoDB", "OpenAI API"],
+    link: "https://quick-gpt-ten-bay.vercel.app/login",
+    github: "https://github.com/UNNuwantha/QuickGPT",
   },
   {
     title: "ChatApp",
@@ -37,9 +38,31 @@ const projects = [
     link: "https://imagify-ivory-two.vercel.app/",
     github: "https://github.com/UNNuwantha/Imagify",
   },
+  {
+    title: " Netflix Clone",
+    description:
+      "A modern, responsive Netflix clone built with React and Vite, featuring Firebase authentication, dynamic content rendering, and a sleek user interface.",
+    image: "/projects/project5.png",
+    tags: ["React", "Firebase", "NodeJS", "Vite"],
+    link: "https://netflix-clone-eight-peach-78.vercel.app/",
+    github: "https://github.com/UNNuwantha/netflix-clone",
+  },
+  {
+    title: " Food Delivery Web",
+    description:
+      "Full stack Food delivery website using React JS, MongoDB, Express, Node JS and Stripe",
+    image: "/projects/project6.png",
+    tags: ["React", "Express", "NodeJS", "MongoDB", "Stripe"],
+    link: "#",
+    github: "https://github.com/UNNuwantha/Food-Delivery-Web",
+  }
 ];
 
 export const Projects = () => {
+  const [showAll, setShowAll] = useState(false);
+
+  const displayedProjects = showAll ? projects : projects.slice(0, 4);
+
   return (
     <section id="projects" className="py-32 relative overflow-hidden">
       {/* Bg glows */}
@@ -66,7 +89,7 @@ export const Projects = () => {
 
         {/* Projects Grid */}
         <div className="grid md:grid-cols-2 gap-8">
-          {projects.map((project, idx) => (
+          {displayedProjects.map((project, idx) => (
             <div
               key={idx}
               className="group glass rounded-2xl overflow-hidden animate-fade-in md:row-span-1"
@@ -134,10 +157,12 @@ export const Projects = () => {
 
         {/* View All CTA */}
         <div className="text-center mt-12 animate-fade-in animation-delay-500">
-          <AnimatedBorderButton>
-            View All Projects
-            <ArrowUpRight className="w-5 h-5" />
-          </AnimatedBorderButton>
+          <button onClick={() => setShowAll(!showAll)}>
+            <AnimatedBorderButton>
+              {showAll ? "Show Less" : "View All Projects"}
+              <ArrowUpRight className="w-5 h-5" />
+            </AnimatedBorderButton>
+          </button>
         </div>
       </div>
     </section>
