@@ -114,13 +114,18 @@ export const Hero = () => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Github, href: "#" },
-                { icon: Linkedin, href: "#" },
+                { icon: Github, href: "https://github.com/UNNuwantha" },
+                {
+                  icon: Linkedin,
+                  href: "https://www.linkedin.com/in/nipuna-nuwantha-87a1393b6",
+                },
                 { icon: Twitter, href: "#" },
               ].map((social, idx) => (
                 <a
                   key={idx}
                   href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
                 >
                   {<social.icon className="w-5 h-5" />}
