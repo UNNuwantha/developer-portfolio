@@ -99,7 +99,12 @@ export const Hero = () => {
                   Contact Me <ArrowRight className="w-5 h-5" />
                 </Button>
               </a>
-              <AnimatedBorderButton>
+              <AnimatedBorderButton
+                href="https://drive.google.com/uc?export=download&id=1xdjXyakYWY94q4Hmmm-jjt_GBw5MZYO5"
+                target="_blank"
+                rel="noopener noreferrer"
+                download
+              >
                 <Download className="w-5 h-5" />
                 Download CV
               </AnimatedBorderButton>
